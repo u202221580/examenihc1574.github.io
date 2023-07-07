@@ -53,3 +53,10 @@ pie.addEventListener("click", (c3) => {
     sectionC3.scrollIntoView({behavior: "smooth"});
 
 })
+
+
+$(document).ready(function(){
+    $('#icon').click(function(){
+        $('ul').toggleClass('show')
+    })
+})
